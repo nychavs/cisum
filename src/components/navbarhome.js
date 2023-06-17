@@ -6,7 +6,7 @@ import navbarhome from "../styles/navbarhome.css";
 const Navbarhomehomehomehomehomehomehomehomehome = () => {
   return (
     <div class="content">
-      <img width={120} height={70} src={logo}></img>
+    <img width={"115vw"} height={"65vh"} src={logo}></img>
       <div class="options">
         <Link to="/login">Sign in</Link>
         <Link to="/cadastro">Sign up</Link>

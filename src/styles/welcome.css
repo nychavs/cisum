@@ -8,14 +8,50 @@
   width: 100%;
   background-size: cover;
   align-items: center;
-}
-.message {
-  padding-top: 8vw;
-  padding-left: 2vw;
-  height: 40vh;
-}
-.message p {
-  display: flex;
-  color: white;
+  height: 90vh;
 }
 
+.message {
+  padding-top: 10vw;
+  padding-left: 8vw;
+  display: absolute;
+}
+
+.message p {
+  word-wrap: break-word;
+  font-size: 2.5vw;
+  color: #e4dccf;
+  padding-top:1.5vw;
+  font-weight:00;
+}
+.msg1{
+  align-items: flex-start;
+}
+.msg2{
+  display: flex;
+  text-align: end;
+}
+.btn{
+  display: absolute;
+  width: 12vw;
+  margin-top: 5vw;
+  margin-left: 17vw;
+  height: 7vh;
+  font-size: 2vw;
+  background: #002B5B;
+  border-radius: 10px;
+  border-style: none;
+  color:#e4dccf;
+  cursor:pointer;
+  text-align: center;
+}
+.btn a{
+  text-decoration: none;
+  color: #e4dccf;
+}
+.btn:hover{
+  background-color: #e4dccf;
+}
+.btn:hover a{
+  color: #002B5B;
+}
