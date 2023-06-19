@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-content{
+    background-color: #00152d;
+}
+.login-box{
+    background-color: #00334E;
+    border-radius: 2vw;
+    height: 63%;
+    width: 40%;
+}
+form {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}       
+.dois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.doisdois{
+    display: grid;
+    justify-items: end;
+    padding-right: 1.3vw;
+    padding-left: 1.2vw;
+}
+.email input{
+    height: 2.5vw;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+}
+.dois input{
+    color: #00152d;
+    font-size: 1.3vw;
+    height: 2.5vw;
+    width: 16vw;
+}
+.dois label{
+    font-size: 1.5vw;
+    color: #E4DCCF;
+}
+input:focus, button:focus{
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+button{ 
+    color: #E4DCCF;
+    height: 50vw;
+    width: 10vw;
+    background-color: #145374;
+    border-radius: 0.5vw;
+    outline: none;
+    align-self: center;
+    margin-bottom: 1vw;
+}
+h1{
+    /* margin-top: 0.5vw; */
+    /* margin-bottom: 1vw; */
+    color: #E4DCCF;
+}
