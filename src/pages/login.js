@@ -2,6 +2,10 @@ import React from "react";
 import login from "../styles/login.css"
 import Navbarhome from "../components/navbarhome"
 const Login = () => {
+  
+  function goHome(){
+    window.location.href = "http://localhost:3000/home";
+}
   return (
     <div>
       <Navbarhome/>
@@ -24,6 +28,7 @@ const Login = () => {
             <button 
             type="submit" 
             value="Submit" 
+            onClick={goHome}
             > 
             Prosseguir
             </button>
