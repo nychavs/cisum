@@ -5,7 +5,6 @@ import Navbar from "../components/navbar";
 
 const Detalhes = () => {
     const { nome, singer, video } = useParams();
-  
     return (
       <div>
         <Navbar/>
