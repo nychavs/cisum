@@ -18,7 +18,7 @@ const Welcome = () => {
           </div>
         </div>
         <div class="btn">
-          <Link to="/login">Acessar </Link>
+          <Link to="/login">Acessar</Link>
         </div>
       </div>
       </div>
