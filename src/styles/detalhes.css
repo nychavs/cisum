@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.detalhes-container{
+    background-color: #00152d;
+    width: 100vw;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    margin-top: 2.1vw;
+}
